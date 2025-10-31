@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.ipassPlusCore"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.ipassPlusCore"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -24,6 +24,7 @@ android {
 
     buildTypes {
         release {
+            ndk.debugSymbolLevel = "FULL"
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -42,7 +43,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.0"
+        kotlinCompilerExtensionVersion = "1.5.10"
     }
 //    packaging {
 //        resources {
