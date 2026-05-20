@@ -35,7 +35,7 @@ android {
         jvmTarget = "17"
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.10"
+        kotlinCompilerExtensionVersion = "1.5.14"
     }
 }
 
@@ -50,7 +50,8 @@ dependencies {
 //    implementation ("com.regula.documentreader.core:fullauthrfid:7.5.12087@aar")
 //    implementation ("com.regula.documentreader.core:fullauthrfid:7.5.12253@aar")
 //    implementation("com.regula.documentreader.core:fullauthrfid:8.2.14191@aar")
-      implementation("com.regula.documentreader.core:fullauthrfid:8.3.14528@aar")
+//      implementation("com.regula.documentreader.core:fullauthrfid:8.3.14528@aar")
+    implementation("com.regula.documentreader.core:fullauthrfid:9.3.+@aar")
 }
 
 project.afterEvaluate {
@@ -61,7 +62,7 @@ project.afterEvaluate {
                 from(components["release"])
                 groupId = "com.core.iPass2.0"
                 artifactId = "Core"
-                version = "2.17"
+                version = "2.22"
             }
         }
     }
