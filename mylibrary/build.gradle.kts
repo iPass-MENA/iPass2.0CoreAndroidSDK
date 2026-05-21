@@ -51,7 +51,7 @@ dependencies {
 //    implementation ("com.regula.documentreader.core:fullauthrfid:7.5.12253@aar")
 //    implementation("com.regula.documentreader.core:fullauthrfid:8.2.14191@aar")
 //      implementation("com.regula.documentreader.core:fullauthrfid:8.3.14528@aar")
-    implementation("com.regula.documentreader.core:fullauthrfid:9.3.+@aar")
+    implementation("com.regula.documentreader.core:fullauthrfid:9.3.15695")
 }
 
 project.afterEvaluate {
