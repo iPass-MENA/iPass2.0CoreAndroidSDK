@@ -49,7 +49,9 @@ dependencies {
 //    implementation("com.regula.documentreader.core:fullauthrfid:8.2.14191@aar")
 //      implementation("com.regula.documentreader.core:fullauthrfid:8.3.14528@aar")
 //    implementation("com.regula.documentreader.core:fullauthrfid:9.3.15695")
-    implementation("com.regula.documentreader.core:fullauthrfid:9.8.16639@aar")
+//    implementation("com.regula.documentreader.core:fullauthrfid:9.8.16639@aar")
+    implementation("com.regula.documentreader.core:fullauthrfid:9.10.17082@aar")
+
 }
 
 project.afterEvaluate {
@@ -60,7 +62,7 @@ project.afterEvaluate {
                 from(components["release"])
                 groupId = "com.core.iPass2.0"
                 artifactId = "Core"
-                version = "2.24"
+                version = "2.25"
             }
         }
     }
